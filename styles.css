@@ -39,7 +39,6 @@ p {
     border: 1px solid gray;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
-    position: relative;
 }
 
 button {
@@ -48,8 +47,11 @@ button {
     border-radius: 25px;
     border: none;
     background: linear-gradient(to right, rgba(246,177,179,255), rgba(242,151,151,255));
-    position: absolute;
-    left: 500px;
+    margin-left: -90px;
+}
+
+.input-button {
+    display: flex;
 }
 
 .brand-description {
