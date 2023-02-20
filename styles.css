@@ -39,6 +39,7 @@ p {
     border: 1px solid gray;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
+    position: fixed;
 }
 
 button {
@@ -47,7 +48,8 @@ button {
     border-radius: 25px;
     border: none;
     background: linear-gradient(to right, rgba(246,177,179,255), rgba(242,151,151,255));
-    margin-left: -90px;
+    margin-left: 350px;
+    position: fixed;
 }
 
 .input-button {
